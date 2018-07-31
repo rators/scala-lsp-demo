@@ -1,0 +1,1 @@
+## Sample Language Server in Scala
