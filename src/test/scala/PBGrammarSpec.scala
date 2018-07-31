@@ -21,6 +21,10 @@ class PBGrammarSpec extends PBTestBase with ExpressionParser {
     "parse a object instantiation expression" in {
       expression mustParse LineStream[Eval]("new Koala()")
     }
+
+    "parse a method call expression" in {
+      expression mustParse LineStream[Eval]("new Koala().doSomething(1,2,3)")
+    }
   }
 }
 
