@@ -2,8 +2,9 @@ import cats.Eval
 import org.scalatest.{Assertion, MustMatchers, WordSpec}
 import parseback._
 import parseback.compat.cats._
+import parsers.ExpressionParser
 
-class PBGrammarSpec extends PBTestBase with ExpressionGrammar {
+class PBGrammarSpec extends PBTestBase with ExpressionParser {
   "variable declaration parser" should {
 
     "parse a variable declaration of type klass" in {
