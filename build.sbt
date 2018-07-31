@@ -17,5 +17,7 @@ libraryDependencies ++= Seq("com.lihaoyi" %% "ammonite-ops" % "1.1.2",
                             "com.github.dragos" % "languageserver_2.12" % "0.2.3",
                             "com.codecommit" %% "parseback-core" % ParsebackVersion,
                             "com.codecommit" %% "parseback-cats" % ParsebackVersion,
+                            "ch.qos.logback" % "logback-classic" % "1.2.3",
+                            "com.typesafe.scala-logging" %% "scala-logging" % "3.9.0",
                             "org.scalatest" %% "scalatest" % "3.0.5" % Test
 )

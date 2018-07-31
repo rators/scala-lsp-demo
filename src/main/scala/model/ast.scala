@@ -1,5 +1,6 @@
 package model
 
+// TODO add 'Line' property to all models
 case class VariableDeclaration(`type`: Type, id: Identifier)
 
 case class FieldDeclaration(`type`: Type, id: Identifier)
