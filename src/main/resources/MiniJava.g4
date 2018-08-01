@@ -77,7 +77,6 @@ type
     |   ID
     ;
 
-// TODO: create statement adt model
 statement
     :   '{' statement* '}'
     # nestedStatement
